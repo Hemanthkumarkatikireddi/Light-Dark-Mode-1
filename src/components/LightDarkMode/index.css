@@ -1,43 +1,36 @@
-/* Write your CSS here */
-.main-container {
-  min-height: 100vh;
+.app-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  padding: 24px;
 }
-.content-container {
-  font-family: Roboto;
-  border: 1px solid;
-  border-radius: 8px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.container {
+  text-align: center;
+  border-radius: 12px;
+  padding: 24px;
 }
-.btn {
-  padding: 10px;
-  font-family: Roboto;
-  border-radius: 5px;
-  color: #000000;
-  font-weight: 1000;
-  font-size: 18px;
-}
-.dark-content {
-  background-color: #000000;
+
+.dark-mode {
   color: #ffffff;
+  background-color: #000000;
 }
-.dark-button {
-  background-color: #ffffff;
+
+.light-mode {
   color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
 }
-@media screen and (min-width: 768px) {
-  .content-container {
-    font-size: xx-large;
-    padding: 20px;
-  }
-  .btn {
-    font-size: 24px;
-    padding: 20px;
-  }
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.button {
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
 }
