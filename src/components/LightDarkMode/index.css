@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  font-family: Roboto;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  padding: 10px;
+  font-family: Roboto;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: 1000;
+  font-size: 18px;
+}
+.dark-content {
+  background-color: #000000;
+  color: #ffffff;
+}
+.dark-button {
+  background-color: #ffffff;
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    font-size: xx-large;
+    padding: 20px;
+  }
+  .btn {
+    font-size: 24px;
+    padding: 20px;
+  }
+}
